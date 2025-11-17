@@ -97,7 +97,7 @@ Artist, as someone said that software development is not about creating beauty.
   // Dates is optional
   // dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
   // URL is also optional
-  url: "github.com/hugoocoto/vicel",
+  url: "hugocoto.com/vicel",
 )
 - Develop and maintain open-source spreadsheet TUI editor.
   - Manage PR reviews, bug fixes, and add new functionality.
