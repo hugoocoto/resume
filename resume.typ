@@ -7,7 +7,7 @@
   github: "github.com/hugoocoto",
   // linkedin: linkedin,
   // phone: phone,
-  // personal-site: personal-site,
+  personal-site: "hugocoto.com",
   accent-color: "#272e33",
   font: "New Computer Modern",
   paper: "us-letter",
@@ -29,7 +29,10 @@
  * #generic-one-by-two(left: "", right: "")
  */
 
-Artist, as someone said that software development is not about creating beauty.
+ #text(size: 0.7em)[ #link("https://raw.githubusercontent.com/hugoocoto/resume/refs/heads/main/resume.pdf",
+"Latest version of this document")]
+
+_Artist, as someone said that software development is not about creating beauty._
 
 == Education
 
