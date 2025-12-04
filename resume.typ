@@ -188,7 +188,7 @@ Hello, my name is Hugo. I'm a 20-year-old CS student in Santiago de Compostela. 
 // #extracurriculars(
 //   activity: "HackUDC 2026",
 // dates: dates-helper(start-date: "Feb 2026", end-date: "Present"),
-)
+// )
 // - Founder of Les Amateurs (#link("https://amateurs.team")[amateurs.team]), currently ranked \#4 US, \#33 global on CTFTime (2023: \#4 US, \#42 global)
 // - Organized AmateursCTF 2023 and 2024, with 1000+ teams solving at least one challenge and \$2000+ in cash prizes
 //   - Scaled infrastructure using GCP, Digital Ocean with Kubernetes and Docker; deployed custom software on fly.io
