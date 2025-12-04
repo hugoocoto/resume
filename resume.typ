@@ -29,10 +29,16 @@
  * #generic-one-by-two(left: "", right: "")
  */
 
- #text(size: 0.7em)[ #link("https://raw.githubusercontent.com/hugoocoto/resume/refs/heads/main/resume.pdf",
-"Latest version of this document")]
+#text(size: 0.7em)[ #link(
+  "https://raw.githubusercontent.com/hugoocoto/resume/refs/heads/main/resume.pdf",
+  "Latest version of this document",
+)]
 
-_Artist, as someone said that software development is not about creating beauty._
+#align(center)[
+  _Artist, as someone said that software development is not about creating beauty._
+]
+
+Hello, my name is Hugo. I'm a 20-year-old CS student in Santiago de Compostela. I write code as if I were writing a novel, making each word fit perfectly where it belongs. I like to get as close to the machine as I can when working on personal projects. Don't expect any fancy JS from me, nor ask for my opinion about modern software development.
 
 == Education
 
@@ -46,8 +52,8 @@ _Artist, as someone said that software development is not about creating beauty.
   // consistent: true
 )
 // - Cumulative GPA: 4.0\/4.0 | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
-- Relevant Coursework: Data Structures, Program Development, Microprocessors,
-  Math, Low level optimization.
+- Relevant Coursework: Data Structures, Software Development, Operating Systems,
+  Math.
 
 // == Work Experience
 //
@@ -107,9 +113,17 @@ _Artist, as someone said that software development is not about creating beauty.
 - Ensure smooth and stable user experience.
 
 #project(
+  name: "ctml",
+  url: "github.com/hugoocoto/ctml",
+)
+- C style html implemented using macros, with a tool that compiles it to
+  native html.
+  - Used in #link("https://hugocoto.com", "my webpage").
+
+#project(
   name: "Fetch",
   // Role is optional
-  role: "Developer",
+  // role: "Developer",
   // Dates is optional
   // dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
   // URL is also optional
@@ -119,9 +133,29 @@ _Artist, as someone said that software development is not about creating beauty.
   - Fully customizable.
 
 #project(
+  name: "Todo",
+  // Role is optional
+  // role: "Developer",
+  // Dates is optional
+  // dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
+  // URL is also optional
+  url: "github.com/hugoocoto/todo",
+)
+- TUI Todo list for my tasks. I develop it not as a project but as a
+  necessity.
+  - Embedded web server that hosts the tasks.
+
+#project(
+  name: "thread pool",
+  url: "github.com/hugoocoto/thread_pool",
+)
+- Thread pool library written in C.
+  - Not very optimized.
+
+#project(
   name: "Piano",
   // Role is optional
-  role: "Developer",
+  // role: "Developer",
   // Dates is optional
   // dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
   // URL is also optional
@@ -131,12 +165,30 @@ _Artist, as someone said that software development is not about creating beauty.
 - Highly extensible, suckless-style configuration.
   - The trickiest C code I’ve ever written.
 
+#project(
+  name: "zmk-config",
+  url: "github.com/hugoocoto/zmk-config",
+)
+- Zmk configuration for a 42 key Corne.
+
+#project(
+  name: "dv",
+  url: "github.com/hugoocoto/dv",
+)
+- Manage files into a directory using posix REGEX.
+
+#project(
+  name: "memory allocator",
+  url: "github.com/hugoocoto/memallocator",
+)
+- Memory allocator, same api as malloc but unoptimized.
+
 // == Extracurricular Activities
 //
 // #extracurriculars(
-//   activity: "Capture The Flag Competitions",
-//   dates: dates-helper(start-date: "Jan 2021", end-date: "Present"),
-// )
+//   activity: "HackUDC 2026",
+// dates: dates-helper(start-date: "Feb 2026", end-date: "Present"),
+)
 // - Founder of Les Amateurs (#link("https://amateurs.team")[amateurs.team]), currently ranked \#4 US, \#33 global on CTFTime (2023: \#4 US, \#42 global)
 // - Organized AmateursCTF 2023 and 2024, with 1000+ teams solving at least one challenge and \$2000+ in cash prizes
 //   - Scaled infrastructure using GCP, Digital Ocean with Kubernetes and Docker; deployed custom software on fly.io
@@ -158,5 +210,5 @@ _Artist, as someone said that software development is not about creating beauty.
 )
 
 == Skills
-- *Programming Languages*: Python, C, C++, Java, Bash, Lua, VimScript, Scheme.
+- *Programming Languages*: Python, C, C++, Java, Bash, Lua, VimScript, Scheme, Typst.
 - *Technologies*: Git, UNIX, Linux, Vim, Stack Overflow, Man Pages, Terminal.
