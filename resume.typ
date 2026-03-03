@@ -5,8 +5,6 @@
   location: "Spain",
   email: "hugo.coto@outlook.com",
   github: "github.com/hugoocoto",
-  // linkedin: linkedin,
-  // phone: phone,
   personal-site: "hugocoto.com",
   accent-color: "#272e33",
   font: "New Computer Modern",
@@ -38,7 +36,10 @@
   _Artist, as someone said that software development is not about creating beauty._
 ]
 
-Hello, my name is Hugo. I'm a 20-year-old CS student in Santiago de Compostela. I write code as if I were writing a novel, making each word fit perfectly where it belongs. I like to get as close to the machine as I can when working on personal projects. Don't expect any fancy JS from me, nor ask for my opinion about modern software development.
+Computer Science Student and disciplined athlete | Systems & Open Source
+Enthusiast 20-year-old student at USC with a strong foundation in low-level
+programming and observability. Passionate about building efficient software,
+mastering Linux environments, and solving complex algorithmic challenges.
 
 == Education
 
@@ -52,7 +53,7 @@ Hello, my name is Hugo. I'm a 20-year-old CS student in Santiago de Compostela. 
   // consistent: true
 )
 // - Cumulative GPA: 4.0\/4.0 | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
-- Relevant Coursework: Data Structures, Software Development, Operating Systems,
+- Core Coursework: Data Structures, Software Development, Operating Systems,
   Math.
 
 // == Work Experience
@@ -100,105 +101,35 @@ Hello, my name is Hugo. I'm a 20-year-old CS student in Santiago de Compostela. 
 == Projects
 
 #project(
-  name: "Vicel",
+  name: "Personal projects",
   // Role is optional
-  role: "Creator and Maintainer",
+  // role: "Creator and Maintainer",
   // Dates is optional
-  // dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
-  // URL is also optional
-  url: "hugocoto.com/vicel",
+  dates: dates-helper(start-date: "Jun 2021", end-date: "present"),
+  url: "github.com/hugoocoto",
 )
-- Develop and maintain open-source spreadsheet TUI editor.
-  - Manage PR reviews, bug fixes, and add new functionality.
-- Ensure smooth and stable user experience.
+- Open Source Contributions; you can see some of my projects in github.
 
 #project(
-  name: "ctml",
-  url: "github.com/hugoocoto/ctml",
-)
-- C style html implemented using macros, with a tool that compiles it to
-  native html.
-  - Used in #link("https://hugocoto.com", "my webpage").
-
-#project(
-  name: "Fetch",
+  name: "Writings",
   // Role is optional
-  // role: "Developer",
+  // role: "Creator and Maintainer",
   // Dates is optional
-  // dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
-  // URL is also optional
-  url: "github.com/hugoocoto/fetch",
+  // dates: dates-helper(start-date: "Jun 2021", end-date: "Present"),
+  url: "https://hugocoto.com",
 )
-- Suckless style computer specs fetcher (yet another neofetch alternative).
-  - Fully customizable.
+- I have a webpage where I store some writings about coding and other
+  topics.
 
-#project(
-  name: "Todo",
-  // Role is optional
-  // role: "Developer",
-  // Dates is optional
-  // dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
-  // URL is also optional
-  url: "github.com/hugoocoto/todo",
+== Extracurriculars
+#extracurriculars(
+  activity: "HackUDC 2026",
+  dates: "March 2026",
 )
-- TUI Todo list for my tasks. I develop it not as a project but as a
-  necessity.
-  - Embedded web server that hosts the tasks.
-
-#project(
-  name: "thread pool",
-  url: "github.com/hugoocoto/thread_pool",
-)
-- Thread pool library written in C.
-  - Not very optimized.
-
-#project(
-  name: "Piano",
-  // Role is optional
-  // role: "Developer",
-  // Dates is optional
-  // dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
-  // URL is also optional
-  url: "github.com/hugoocoto/piano",
-)
-- Play piano from the terminal! (I still don’t know how to play the piano.)
-- Highly extensible, suckless-style configuration.
-  - The trickiest C code I’ve ever written.
-
-#project(
-  name: "zmk-config",
-  url: "github.com/hugoocoto/zmk-config",
-)
-- Zmk configuration for a 42 key Corne.
-
-#project(
-  name: "dv",
-  url: "github.com/hugoocoto/dv",
-)
-- Manage files into a directory using posix REGEX.
-
-#project(
-  name: "memory allocator",
-  url: "github.com/hugoocoto/memallocator",
-)
-- Memory allocator, same api as malloc but unoptimized.
-
-// == Extracurricular Activities
-//
-// #extracurriculars(
-//   activity: "HackUDC 2026",
-// dates: dates-helper(start-date: "Feb 2026", end-date: "Present"),
-// )
-// - Founder of Les Amateurs (#link("https://amateurs.team")[amateurs.team]), currently ranked \#4 US, \#33 global on CTFTime (2023: \#4 US, \#42 global)
-// - Organized AmateursCTF 2023 and 2024, with 1000+ teams solving at least one challenge and \$2000+ in cash prizes
-//   - Scaled infrastructure using GCP, Digital Ocean with Kubernetes and Docker; deployed custom software on fly.io
-// - Qualified for DEFCON CTF 32 and CSAW CTF 2023, two of the most prestigious cybersecurity competitions globally
-//
-// #extracurriculars(
-//   activity: "Science Olympiad Volunteering",
-//   dates: "Sep 2023 --- Present"
-// )
-// - Volunteer and write tests for tournaments, including LA Regionals and SoCal State \@ Caltech
+- 3 days of programming and networking with a lot of interesting people.
+- Awarded 1st place among 10 competing teams for developing a real-time observability solution focused on public tourism data in Galicia (Camino de Santiago).
+- Engineered dynamic dashboards in Grafana to visualize regional datasets, providing actionable insights into pilgrim flows and infrastructure occupancy.
+- Optimized data ingestion and representation to ensure low-latency monitoring of public information streams.
 
 == Certificates
 
@@ -210,5 +141,5 @@ Hello, my name is Hugo. I'm a 20-year-old CS student in Santiago de Compostela. 
 )
 
 == Skills
-- *Programming Languages*: Python, C, C++, Java, Bash, Lua, VimScript, Scheme, Typst.
-- *Technologies*: Git, UNIX, Linux, Vim, Stack Overflow, Man Pages, Terminal.
+- *Programming Languages*: Python, C, C++, Java, Bash, Lua, VimScript, Scheme, Typst, Rust.
+- *Technologies*: Git, UNIX, Linux, Vim, Stack Overflow, Man Pages, Terminal, Grafana.
