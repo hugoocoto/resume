@@ -38,8 +38,8 @@
 
 Computer Science Student and disciplined athlete | Systems & Open Source
 Enthusiast 20-year-old student at USC with a strong foundation in low-level
-programming and observability. Passionate about building efficient software,
-mastering Linux environments, and solving complex algorithmic challenges.
+programming. Passionate about building efficient software, mastering Linux
+environments, and solving complex algorithmic challenges.
 
 == Education
 
