@@ -23,7 +23,7 @@
 #let location = "Spain"
 #let email = "hugo.coto@outlook.com"
 #let github = "github.com/hugoocoto"
-#let linkedin = "linkedin.com/in/hugo-coto-flórez-311436412"
+#let linkedin = "www.linkedin.com/in/hugoocoto"
 // #let phone = "+1 (xxx) xxx-xxxx"
 #let personal-site = "hugocoto.com"
 
