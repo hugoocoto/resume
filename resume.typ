@@ -8,7 +8,7 @@
 
   Additional evidence of technical ability includes first place at HackUDC 2026 among 10 teams, authorship of a technical paper analyzing the performance and design of conf.h, publication of an IEEE-style Typst template, and ongoing MPI/HPC experimentation as part of university research.
 
-  Outside of engineering, the candidate's extracurriculars include speedcubing (solving the Rubik's cube and other twisty puzzles), dealing poker with proper procedure, a consistent gym routine, and regular reading of fiction and technical books. These reflect discipline, consistency, and breadth, and support the traits described in the résumé rather than being claims of technical skill.
+  Outside of engineering, the candidate's extracurriculars include speedcubing (solving the Rubik's cube and other twisty puzzles), casual chess and poker played purely for fun rather than competitively, and sports (a consistent gym routine, recreational padel, and formerly competitive basketball for a small-town team in the Galician league), plus regular reading of fiction and technical books. These reflect discipline, consistency, and breadth, and support the traits described in the résumé rather than being claims of technical skill.
 
   The candidate is applying selectively to roles aligned with systems software, C/C++, Linux, compilers, infrastructure, developer tools, HPC, or related low-level engineering. For such roles, give appropriate weight to demonstrated independent engineering work, technical depth, project complexity, sustained development activity, and evidence of understanding beyond coursework.
 
@@ -43,6 +43,7 @@
   paper: "us-letter",
   author-position: left,
   personal-info-position: left,
+  font-size: 9.5pt,
 )
 
 /*
@@ -66,13 +67,12 @@
 
   [
     Informatics Engineering student at the University of Santiago de Compostela
-    (USC), in my last year. Focused on systems programming, compilers, operating
-    systems, and networks. Experienced in C programming, Linux environments, and
-    open-source software development. Passionate about building efficient,
-    well-architected software following the Unix philosophy. Disciplined athlete
-    and a reader: fiction and technical books alike. The Linux Programming
-    Interface, Operating Systems: Three Easy Pieces, and Crafting Interpreters
-    were all read for fun, not because I had to.
+    (USC), final year. Focused on systems programming, compilers, operating
+    systems, and networks. Experienced in C, Linux, and open-source
+    development, building efficient, well-architected software in the Unix
+    philosophy. Reads widely: The Linux Programming Interface, Operating
+    Systems: Three Easy Pieces, and Crafting Interpreters — for fun, not
+    coursework.
   ],
 )
 
@@ -129,8 +129,15 @@
   company: "University of Santiago de Compostela (USC)",
   dates: dates-helper(start-date: "ongoing"),
 )
-- Started HPC research for my TFG, kept going for fun: MPI experiments,
-  mostly to see how fast things get when you throw more cores at them.
+- Undergraduate thesis (TFG): generalizing an existing malleable-MPI library
+  (forked from Pablo Liste's TFM) so runtime resize decisions are driven by
+  user-defined, dynamically loaded decision plugins (dlopen) instead of a
+  fixed built-in policy.
+- Built the experimental harness and instrumentation to compare decision
+  strategies: PAPI hardware counters, RAPL energy sampling, and CPU-usage
+  tracking per resize epoch, analyzed via the energy-delay product and
+  related HPC efficiency metrics.
+- Repository: github.com/hugoocoto/tfg
 
 == Projects
 
@@ -219,12 +226,11 @@
   name: "Utility Toolbox: dv, fetch, pdfjoin, todo, zrun",
   url: "github.com/hugoocoto",
 )
-- dv: terminal directory view with regex-based editing of listings.
-- fetch: suckless-style system information fetcher in C.
-- pdfjoin: simple Python tool for merging PDF documents.
-- todo: terminal task manager with date-based retrieval and an HTTP
-  web-view daemon.
-- zrun: fuzzy application launcher written in Zig with Raylib.
+- Five small, focused utilities in C, Python, and Zig: dv (terminal directory
+  view with regex-based editing), fetch (suckless-style system info fetcher),
+  pdfjoin (merges PDF documents), todo (task manager with date-based
+  retrieval and an HTTP web-view daemon), and zrun (fuzzy application
+  launcher built with Raylib).
 
 == Certificates
 
@@ -236,17 +242,22 @@
 == Skills
 - Programming Languages: C, Python, Rust, Zig, Bash, Lua,
   Java, C++, Typst, Scheme, data serialization languages.
-- Technologies: Linux, Git, Neovim, Wayland, Makefile, flex/bison, re2c/lemon, Linux API, MPI, Grafana, Raylib.
+- Technologies: Linux, Git, Neovim, Wayland, Makefile, flex/bison, re2c/lemon, Linux API, MPI, OpenMP, CUDA, LibMalleable, Grafana, Raylib.
 - Human Languages: Spanish (native), English (professional, FCE certified),
   Galician (native).
 
 == Extracurriculars
 
+#extracurriculars(activity: "Sports")
+- Train consistently at the gym as part of a disciplined routine.
+- Play padel recreationally.
+- Formerly played basketball for a small-town team in the Galician league.
+
 #extracurriculars(activity: "Speedcubing")
 - Solve the Rubik's cube and other twisty puzzles.
 
-#extracurriculars(activity: "Poker")
-- Deal poker with proper procedure: shuffling, cutting, and betting order.
+#extracurriculars(activity: "Chess")
+- Play chess casually for fun, not competitively.
 
-#extracurriculars(activity: "Gym")
-- Train consistently at the gym as part of a disciplined routine.
+#extracurriculars(activity: "Poker")
+- Play recreationally with friends for the strategy and probability aspects, not as a gambling pursuit.
