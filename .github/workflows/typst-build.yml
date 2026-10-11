@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install latest Typst
         uses: typst-community/setup-typst@v5
