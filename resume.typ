@@ -24,7 +24,7 @@
   paper: "a4",
   author-position: left,
   personal-info-position: left,
-  font-size: 9.5pt,
+  font-size: 9pt,
 )
 
 #grid(
@@ -77,15 +77,22 @@
     infrastructure occupancy.
 
   #work(
-    title: "Independent Researcher",
-    company: "conf.h-paper: Technical Paper",
+    title: "Independent Researcher: conf.h",
+    company: "Paper about my library for parsing lua from C.",
     dates: "July 2026",
   )
-  - Wrote a technical paper analyzing the conf.h library: study of
-    alternatives, performance benchmarks, and design rationale.
-  - Benchmarked against hand-written Lua C API code at varying nesting depths
-    and access patterns.
+  - Analyzed alternatives, design rationale, and performance of conf.h against
+    hand-written Lua C API code.
   - Paper available at: github.com/hugoocoto/conf.h-paper
+
+  #work(
+    title: "Independent Researcher: RMinT",
+    company: "Rolling Min Tree: top-K selection algorithm",
+    dates: "November 2026",
+  )
+  - Co-authored a paper on fixed-capacity min-heaps for top-K selection; derived
+    complexity bounds and benchmarked on FinisTerrae III (CESGA), achieving up to
+    259x lower runtime than sorting at one billion elements.
 
   #work(
     title: "Academic Researcher",
@@ -111,6 +118,7 @@
   == Extracurriculars
   - Gym, padel, former Galician-league basketball, speedcubing, former Lego
     builder, casual chess and poker, and reading fiction and technical books.
+  - Mentored 5+ USC classmates in programming and technical coursework.
 
   #colbreak()
 
@@ -161,6 +169,9 @@
   )
   - Published on Typst Universe: wired-ieee (IEEE-style papers) and
     xemelgo-etse (unofficial clone of the USC ETSE TFG templates, 3 languages).
+
+  Maintained GitHub Actions CI/CD across 3+ projects, automating builds, tests,
+  releases, packages, and documentation.
 
   == Skills
   - Programming Languages: C, Python, Rust, Zig, Bash, Lua,
